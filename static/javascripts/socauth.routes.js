@@ -24,6 +24,10 @@
       controller : 'StoryController',
       controllerAs : 'vm',
       templateUrl : '/static/views/story.html'
+    }).when('/storycreate',{
+      controller : 'CreateController',
+      controllerAs : 'vm',
+      templateUrl:'/static/views/create.html'
     }).otherwise('/');
   }
 })();

@@ -11,7 +11,7 @@
 
     $scope.storyname = "";
     $scope.tripstart = function (){
-      created=Story.create($scope.storyname);
+      var created=Story.create($scope.storyname);
       if (created){
           $location.url('/storycreate');
       }
