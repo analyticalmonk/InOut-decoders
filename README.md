@@ -1,4 +1,4 @@
-# Team Ino=Out-decoders
+# Team InOut-decoders
 # Aadesh Bagmar
 # Meet Shah
 # Akash Tandon
