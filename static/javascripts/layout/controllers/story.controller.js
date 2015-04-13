@@ -10,7 +10,7 @@
 
     var vm = this;
     vm.start = start;
-
+    vm.redir = redir;
     //activate();
     function activate(){
       if(Authentication.isAuthenticated()){
@@ -22,6 +22,10 @@
                   controller:'DialogController',
                   scope :$scope
       });
+    }
+
+    function redir(){
+      window.location = '/static/src/index.html';
     }
 
 

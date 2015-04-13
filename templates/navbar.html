@@ -1,8 +1,8 @@
-<nav class="navbar navbar-default" role="navigation" ng-controller = "NavbarController as vm">
-  <div class="container-fluid">
+<nav class="navbar navbar-default" role="navigation" ng-controller = "NavbarController as vm" >
+  <div class="container-fluid" style="background-image:url('/static/TripClip.png'); background-repeat: no-repeat">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="/">Travel Story</a>
+      <a class="navbar-brand" href="/"></a>
     </div> <!-- ./navbar-header -->
 
     <div class="collapse navbar-collapse" >
@@ -13,8 +13,8 @@
           <li><a href="javascript:void(0)" ng-click="vm.logout()" >Logout</a></li>
           {% else %}
 
-          <li><a href="javascript:void(0)" ng-click="vm.fblogin()" >FbLogin</a></li>
-        
+          <li><a href="javascript:void(0)" ng-click="vm.fblogin()" class="btn" >Facebook Login</a></li>
+
 
         {% endif %}
       </ul>
